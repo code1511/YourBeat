@@ -1,8 +1,24 @@
 .App {
   text-align: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
 }
-
+.top{
+  background-color: blueviolet;
+  color: black;
+}
+.box-form{
+  width: 300px;
+  height: 500px;
+  background-color: orchid;
+  border: 1px solid black;
+ box-sizing: border-box;
+}
 .input{
+  height: 25px;
+  margin: 3px 3px 3px 3px;
+  padding: 5px 5px 5px 5px;
+  width: 280px;
   border: none;
   border-bottom: black;
 }
