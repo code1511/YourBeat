@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "express-generator": "^4.16.1"
+    "express-generator": "^4.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
