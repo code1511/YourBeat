@@ -4,6 +4,8 @@ function App() {
   return (
     <>
     <Log/>
+    <Log/>
+    <Log/>
     </>
   );
 }
