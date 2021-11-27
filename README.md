@@ -1,2 +1,2 @@
-# YourBeat
-<h3>Tech Stack - Node js + React js</h3>
+# YourBeat - a full stack application
+<h3>Tech Stack - Node js + Express js + React js + MongoDb</h3>
