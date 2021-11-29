@@ -25,7 +25,7 @@ function App() {
               <Link to="/users">Users</Link>
             </li>
             <li>
-              <Link to="/login">Log in</Link>
+              <Link to="/login"><Log/></Link>
             </li>
           </ul>
         </nav>
@@ -40,7 +40,7 @@ function App() {
             <Home />
           </Route>
           <Route>
-            <Log></Log>
+            <Log/>
           </Route>
         </Switch>
       </div>
