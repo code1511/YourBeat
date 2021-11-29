@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-// import Log from'./body/Log';
+import Log from'./body/Log';
 // import Header from './Header';
 
 
@@ -24,6 +24,9 @@ function App() {
             <li>
               <Link to="/users">Users</Link>
             </li>
+            <li>
+              <Link to="/login">Log in</Link>
+            </li>
           </ul>
         </nav>
         <Switch>
@@ -35,6 +38,9 @@ function App() {
           </Route>
           <Route path="/">
             <Home />
+          </Route>
+          <Route>
+            <Log></Log>
           </Route>
         </Switch>
       </div>
