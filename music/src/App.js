@@ -1,10 +1,10 @@
 import Log from'./body/Log';
-import Header from './Header/Header';
+// import Header from './Header';
 
 function App() {
   return (
     <div>
-    <Header/>
+    {/* <Header/> */}
     <Log/>
     </div>
   );
