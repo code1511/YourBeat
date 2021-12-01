@@ -24,9 +24,6 @@ function App() {
             <li>
               <Link to="/users">Users</Link>
             </li>
-            <li>
-              <Link to="/login"><Log/></Link>
-            </li>
           </ul>
         </nav>
         <Switch>
@@ -39,7 +36,7 @@ function App() {
           <Route path="/">
             <Home />
           </Route>
-          <Route>
+          <Route path="/login">
             <Log/>
           </Route>
         </Switch>
