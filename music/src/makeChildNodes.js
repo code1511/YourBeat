@@ -2,9 +2,6 @@ import React from 'react';
 const extractData = require('./extractData');
 const passReactState = require('./passReactState');
 
-//Recursively create all nested React components with reactData
-//Child elements are sent back back to extractData and then mapped over to be called recursively
-//TextContent is always passed as a child, if null react ignores it
 function makeChildNodes(reactData, stateData, getState) {
 
   return reactData.map((obj, i) => {
