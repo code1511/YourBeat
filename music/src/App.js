@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
+// import node from './diagram';
+// import rd3 from 'react-d3-library';
+// const RD3Component = rd3.Component;
 
-class App extends React.Component {
-render() {
-	return <h1>GeeksForGeeks</h1>;
+function App(){
+  return (
+    <h1>Hello Anu</h1>
+  );
 }
-}
-
 export default App;
