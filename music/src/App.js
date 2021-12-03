@@ -9,7 +9,9 @@ import { LineChart,Line,
 const App = () => {
 //sample values to plot the chart
 
-const data = [{name: 'Page A', uv: 400, pv: 2400, amt: 2400},{name: 'Page A', uv: 400, pv: 2400, amt: 2400},{name: 'Page B', uv: 410, pv: 2100, amt: 2400}];
+const data = [{name: 'Page A', uv: 400, pv: 2490, amt: 2400},
+              {name: 'Page B', uv: 380, pv: 2310, amt: 2400},
+              {name: 'Page C', uv: 410, pv: 2100, amt: 2400}];
 
 
 return (
