@@ -23,8 +23,8 @@ return (
 
   <LineChart width={500} height={300} data={data}>
     <XAxis />
-    <YAxis dataKey="name"/>
-    <CartesianGrid stroke="#eee" strokeDasharray="5 5"/>
+    <YAxis />
+    <CartesianGrid stroke="#eee" strokeDasharray="8 5"/>
     <Line type="monotone" dataKey="uv" stroke="#8884d8" />
     <Line type="monotone" dataKey="pv" stroke="#82ca9d" />
   </LineChart>
