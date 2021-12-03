@@ -11,14 +11,19 @@ const App = () => {
 
 const data = [{name: 'Page A', uv: 300, pv: 2490, amt: 400},
               {name: 'Page B', uv: 800, pv: 1810, amt: 1100},
-              {name: 'Page C', uv: 410, pv: 2500, amt: 2400}];
+              {name: 'Page C', uv: 410, pv: 2500, amt: 2400},
+              {name: 'Page A', uv: 300, pv: 2490, amt: 400},
+              {name: 'Page B', uv: 800, pv: 1810, amt: 1100},
+              {name: 'Page C', uv: 410, pv: 2500, amt: 2400}
+
+            ];
 
 
 return (
 
   <LineChart width={500} height={300} data={data}>
-    <XAxis dataKey="name"/>
-    <YAxis/>
+    <XAxis />
+    <YAxis dataKey="name"/>
     <CartesianGrid stroke="#eee" strokeDasharray="5 5"/>
     <Line type="monotone" dataKey="uv" stroke="#8884d8" />
     <Line type="monotone" dataKey="pv" stroke="#82ca9d" />
