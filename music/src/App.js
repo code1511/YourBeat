@@ -72,7 +72,7 @@ return (
 
       <YAxis />
 
-      <Brush dataKey="name" height={30} stroke="#8884d8" />
+      <Brush dataKey="name" height={30} stroke="#8084d8" />
 
       <Bar dataKey="x" fill="green" />
 
