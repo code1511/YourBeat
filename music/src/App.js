@@ -1,5 +1,7 @@
 import React from 'react';
-import { BarChart, Bar, Brush, XAxis,
+import { LineChart,Line,
+  //  BarChart, Bar, Brush,
+    XAxis,
 
     YAxis, CartesianGrid} from 'recharts';
 
@@ -64,19 +66,27 @@ const data = [
 
 return (
 
-  <BarChart width={700} height={600} data={data} >
+  // <BarChart width={700} height={600} data={data} >
 
-      <CartesianGrid/>
+  //     <CartesianGrid/>
 
-      <XAxis dataKey="name" />
+  //     <XAxis dataKey="name" />
 
-      <YAxis />
+  //     <YAxis />
 
-      <Brush dataKey="name" height={30} stroke="#8084d8" />
+  //     <Brush dataKey="name" height={30} stroke="#8084d8" />
 
-      <Bar dataKey="x" fill="red" />
+  //     <Bar dataKey="x" fill="red" />
 
-  </BarChart>
+  // </BarChart>
+
+  <LineChart width={500} height={300} data={data}>
+    <XAxis dataKey="name"/>
+    <YAxis/>
+    <CartesianGrid stroke="#eee" strokeDasharray="5 5"/>
+    <Line type="monotone" dataKey="uv" stroke="#8884d8" />
+    <Line type="monotone" dataKey="pv" stroke="#82ca9d" />
+  </LineChart>
 );
 }
 
