@@ -8,7 +8,7 @@ const App = () => {
 //sample values to plot the chart
 const data = [
 
-  {name:'A', x:861},
+  {name:'A', x:461},
 
   {name:'B', x:862},
 
@@ -64,7 +64,7 @@ const data = [
 
 return (
 
-  <BarChart width={500} height={600} data={data} >
+  <BarChart width={700} height={600} data={data} >
 
       <CartesianGrid/>
 
