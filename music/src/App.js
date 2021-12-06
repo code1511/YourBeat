@@ -27,7 +27,7 @@ const data = [{name: 'SC1', uv: 300, pv: 2490, amt: 400},
 
 return (
 
-  <LineChart width={800} height={500} data={data}
+  <LineChart width={500} height={300} data={data}
   margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
     <XAxis dataKey="name"/>
     <YAxis />
