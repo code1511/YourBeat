@@ -1,6 +1,7 @@
 import React from 'react';
+import "./App.css";
 import { Area,Tooltip, AreaChart,
-  // LineChart,Line,
+  LineChart,Line,
     // BarChart, Bar, Brush,
     XAxis,
 
@@ -59,8 +60,8 @@ const data = [
 
 return (
 <div>
-  {/* <div>
-  <LineChart width={500} height={300} data={data}>
+  <div>
+  <LineChart width={500} height={300} data={data} id="one">
     <XAxis dataKey="name"/>
     <YAxis />
     <CartesianGrid stroke="#eee" strokeDasharray="9 9"/>
@@ -69,14 +70,14 @@ return (
   </LineChart>
   </div>
   <div>
-  <LineChart width={500} height={300} data={data}>
+  <LineChart width={500} height={300} data={data} id="two">
     <XAxis dataKey="name"/>
     <YAxis />
     <CartesianGrid stroke="#eee" strokeDasharray="9 9"/>
     <Line type="monotone" dataKey="pv" stroke="#8884d8" />
     <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
   </LineChart>
-  </div> */}
+  </div>
   <AreaChart width={730} height={250} data={data}
   margin={{ top: 10, right: 30, left: 100, bottom: 0 }}>
   <defs>
