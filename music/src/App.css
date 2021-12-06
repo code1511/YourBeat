@@ -1,3 +1,9 @@
 body{
     background-color:whitesmoke;
 }
+#one{
+    text-align: left;
+}
+#two{
+   float: center;
+}
