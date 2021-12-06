@@ -32,8 +32,8 @@ return (
     <XAxis dataKey="name"/>
     <YAxis />
     <CartesianGrid stroke="#eee" strokeDasharray="9 9"/>
-    <Line type="monotone" dataKey="uv" stroke="#8884d8" />
-    <Line type="monotone" dataKey="pv" stroke="#82ca9d" />
+    <Line type="monotone" dataKey="pv" stroke="#8884d8" />
+    <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
   </LineChart>
 );
 }
