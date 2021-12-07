@@ -8,6 +8,7 @@ import Header from "./Header/Header"
 export default function App(){
   return( <div>
     <Header/>
+    <br/>
     <LineGraph/>
     <AreaGraph/>
     <BarGraph/>
