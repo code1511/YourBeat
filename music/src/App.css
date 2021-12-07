@@ -1,9 +1,6 @@
-body{
-    background-color:whitesmoke;
-}
-#one{
-    text-align: left;
-}
-#two{
-   float: center;
+body {
+  margin: 0px 0px 0px 0px;
+  margin-top: -10px;
+  overflow: hidden;
+  background-color: whitesmoke;
 }
