@@ -7,11 +7,11 @@ export default function Header() {
         <h1>App Name</h1>
       </div>
       <div className="right">
-        <div className="itemcontainer"></div>
-        <div className="itemcontainer"></div>
-        <div className="itemcontainer"></div>
+        <div className="itemcontainer">Home</div>
+        <div className="itemcontainer">Page A</div>
+        <div className="itemcontainer">Page B</div>
 
-        <div className="itemcontainer"></div>
+        <div className="itemcontainer">Page C</div>
       </div>
     </div>
   );
