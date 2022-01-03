@@ -11,8 +11,8 @@ export default function Top() {
           <span className="topbarLink">Homepage</span>
           <span className="topbarLink">Resume Reviewer</span>
           <span className="topbarLink">Referrals</span>
-          <span className="topbarLink">Other Servies</span>
-          <span className="topbarLink">Testimonials
+          <span className="topbarLink">Careers Advice</span>
+          <span className="topbarLink">Job Openings
           </span>
         </div>
         <div className="topbarIcons">
