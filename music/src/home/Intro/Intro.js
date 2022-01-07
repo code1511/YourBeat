@@ -5,8 +5,8 @@ export default function Intro(){
            <div className="resHeading">
                <h1>Check Your Resume for 30+ Issues in 35 seconds or less</h1>
            </div>
-           <div className="inputcon">
-            <input type="file"></input>
+           <div className="inputcontainer">
+            <input className="ip" type="file"></input>
             </div>
         </div>
     )
