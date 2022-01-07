@@ -1,0 +1,19 @@
+{
+  "name": "yourbeat",
+  "version": "1.0.0",
+  "description": "<h3>Tech Stack - Node js + Express js + React js + MongoDb</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code1511/YourBeat.git"
+  },
+  "author": "anchal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code1511/YourBeat/issues"
+  },
+  "homepage": "https://github.com/code1511/YourBeat#readme"
+}
